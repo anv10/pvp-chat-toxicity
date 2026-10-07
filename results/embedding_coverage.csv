@@ -1,0 +1,5 @@
+embedding,dim,known_words,vocab_coverage,token_coverage
+glove50,50,400000,0.5606,0.9035
+glove100,100,400000,0.5606,0.9035
+gamew2v50,50,38141,0.7428,0.9682
+gamew2v100,100,38141,0.7428,0.9682

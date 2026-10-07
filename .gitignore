@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw Kaggle data is large (~1GB); download it manually (see README)
+data/raw/
+
+# Trained models can be large; regenerate with the training scripts
+models/*
+!models/.gitkeep
+data/processed/w2v_corpus.txt
+
+# Per-message test predictions (12MB); regenerate with python -m src.evaluate
+results/predictions/

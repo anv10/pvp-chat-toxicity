@@ -1,0 +1,23 @@
+paper_model,our_key,paper_table,task,accuracy,f1_class0,f1_class1,f1_class2
+SVM (linear kernel),svm_linear_bin,Table 2,binary,0.9565,,,
+SVM (rbf kernel),svm_rbf_bin,Table 2,binary,0.9635,,,
+SVM (polynomial kernel),svm_poly_bin,Table 2,binary,0.9435,,,
+Naive Bayes (dictionary baseline),nb_dict,Table 2 + Fig 5,3-class,0.8500,0.90,0.77,0.61
+Naive Bayes (TF-IDF),nb_tfidf,Table 3/4,3-class,0.9506,0.97,0.94,0.87
+KNN (K=1),knn_1,Table 3/4,3-class,0.9853,0.99,0.98,0.95
+KNN (K=2),knn_2,Table 3/4,3-class,0.9711,0.98,0.96,0.91
+KNN (K=3),knn_3,Table 3/4,3-class,0.9683,0.98,0.96,0.91
+KNN (K=6),knn_6,Table 3/4,3-class,0.8424,0.89,0.77,0.67
+"Random Forest (entropy, max depth=32)",rf_entropy_d32,Table 3/4,3-class,0.8775,0.91,0.86,0.53
+Random Forest (Gini),rf_gini,Table 3/4,3-class,0.9912,0.99,0.99,0.98
+Random Forest (Entropy),rf_entropy,Table 3/4,3-class,0.9910,0.99,0.99,0.98
+"FF (ReLU, ReLU, softmax) GloVe 50d",ff_glove50,Table 5,3-class,0.9486,,,
+"FF (ReLU, ReLU, softmax) Word2Vec 50d",,Table 5,3-class,0.9572,,,
+"FF (ReLU, ReLU, softmax) Word2Vec 100d",,Table 5,3-class,0.8618,,,
+"FF (ReLU, softmax) Word2Vec 50d",,Table 5,3-class,0.8449,,,
+"FF (ReLU, sigmoid, softmax) Word2Vec 50d",,Table 5,3-class,0.9183,,,
+LSTM (softmax) GloVe 50d,lstm_glove50,Table 5,3-class,0.9586,,,
+LSTM (softmax) GloVe 100d,lstm_glove100,Table 5,3-class,0.9175,,,
+LSTM (softmax) Word2Vec 50d,,Table 5,3-class,0.9499,,,
+LSTM (softmax) Word2Vec 100d,,Table 5,3-class,0.8803,,,
+LSTM (sigmoid) Word2Vec 50d,,Table 5,3-class,0.9068,,,

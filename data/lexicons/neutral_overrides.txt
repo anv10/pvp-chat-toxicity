@@ -1,0 +1,32 @@
+# Phrases that look negative but aren't. They are removed from the message
+# BEFORE the derogatory/negative lexicons are checked. For example "my bad"
+# is an apology and "i suck" is self-criticism, not an attack on a teammate.
+# Same format as the other lexicon files (no apostrophes).
+
+# apologies / owning a mistake
+my bad
+my fault
+mb
+sorry i feed
+sorry for feeding
+
+# self-deprecation (not directed at anyone else)
+i suck
+im bad
+im so bad
+i am bad
+i am so bad
+im trash
+im useless
+i feed
+i fed
+
+# negations / de-escalation
+not bad
+no worries
+dont report
+no report
+dont flame
+no flame
+dont feed
+dont be toxic

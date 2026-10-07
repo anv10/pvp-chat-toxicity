@@ -1,0 +1,69 @@
+{
+  "key": "svm_rbf_bin",
+  "name": "SVM RBF kernel",
+  "family": "SVM",
+  "features": "word",
+  "task": "binary",
+  "dataset": "dedup",
+  "train_seconds": 29.05,
+  "n_features": 11022,
+  "val": {
+    "accuracy": 0.9653409090909091,
+    "macro_f1": 0.965172647595702,
+    "per_class": {
+      "0": {
+        "precision": 0.9322033898305084,
+        "recall": 0.9953703703703703,
+        "f1": 0.9627518827600244,
+        "support": 2376
+      },
+      "1": {
+        "precision": 0.995989792198323,
+        "recall": 0.940771349862259,
+        "f1": 0.9675934124313795,
+        "support": 2904
+      }
+    },
+    "confusion_matrix": [
+      [
+        2365,
+        11
+      ],
+      [
+        172,
+        2732
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9612121212121212,
+    "macro_f1": 0.9610260770975056,
+    "per_class": {
+      "0": {
+        "precision": 0.927536231884058,
+        "recall": 0.9912457912457913,
+        "f1": 0.9583333333333334,
+        "support": 2970
+      },
+      "1": {
+        "precision": 0.99241097489784,
+        "recall": 0.9366391184573003,
+        "f1": 0.963718820861678,
+        "support": 3630
+      }
+    },
+    "confusion_matrix": [
+      [
+        2944,
+        26
+      ],
+      [
+        230,
+        3400
+      ]
+    ],
+    "share_seen_in_train": 0.0,
+    "accuracy_seen": null,
+    "accuracy_unseen": 0.9612121212121212
+  }
+}

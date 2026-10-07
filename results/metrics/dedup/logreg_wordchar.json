@@ -1,0 +1,95 @@
+{
+  "key": "logreg_wordchar",
+  "name": "Logistic Regression (word+char)",
+  "family": "Logistic Regression",
+  "features": "word+char",
+  "task": "multiclass",
+  "dataset": "dedup",
+  "train_seconds": 1.05,
+  "n_features": 32119,
+  "val": {
+    "accuracy": 0.9839015151515151,
+    "macro_f1": 0.9830955692847286,
+    "per_class": {
+      "0": {
+        "precision": 0.9829095456440183,
+        "recall": 0.9924242424242424,
+        "f1": 0.9876439790575916,
+        "support": 2376
+      },
+      "1": {
+        "precision": 0.9816571790006325,
+        "recall": 0.9797979797979798,
+        "f1": 0.9807266982622432,
+        "support": 1584
+      },
+      "2": {
+        "precision": 0.9884615384615385,
+        "recall": 0.9734848484848485,
+        "f1": 0.9809160305343512,
+        "support": 1320
+      }
+    },
+    "confusion_matrix": [
+      [
+        2358,
+        11,
+        7
+      ],
+      [
+        24,
+        1552,
+        8
+      ],
+      [
+        17,
+        18,
+        1285
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9845454545454545,
+    "macro_f1": 0.9838170404761882,
+    "per_class": {
+      "0": {
+        "precision": 0.9823568575233023,
+        "recall": 0.9936026936026936,
+        "f1": 0.9879477736859725,
+        "support": 2970
+      },
+      "1": {
+        "precision": 0.9822964087000505,
+        "recall": 0.9808080808080808,
+        "f1": 0.9815516805660854,
+        "support": 1980
+      },
+      "2": {
+        "precision": 0.9913526868437307,
+        "recall": 0.9727272727272728,
+        "f1": 0.9819516671765066,
+        "support": 1650
+      }
+    },
+    "confusion_matrix": [
+      [
+        2951,
+        13,
+        6
+      ],
+      [
+        30,
+        1942,
+        8
+      ],
+      [
+        23,
+        22,
+        1605
+      ]
+    ],
+    "share_seen_in_train": 0.0,
+    "accuracy_seen": null,
+    "accuracy_unseen": 0.9845454545454545
+  }
+}

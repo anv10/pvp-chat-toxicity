@@ -1,0 +1,16 @@
+# Tested with Python 3.13 on macOS (CPU only)
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+tensorflow==2.21.0
+gensim==4.4.0
+streamlit==1.65.0
+# notebook execution
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel
+pytest==9.1.1

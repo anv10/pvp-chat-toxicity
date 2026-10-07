@@ -1,0 +1,116 @@
+{
+  "seed": 42,
+  "dota_max_rows": 5000000,
+  "per_source": {
+    "lol": {
+      "rows_raw": 1697222,
+      "rows_nonempty": 1697189,
+      "rows_not_system": 1696954,
+      "rows_english": 1600974,
+      "unique_english": 820696
+    },
+    "dota": {
+      "rows_raw": 5000000,
+      "rows_nonempty": 4998687,
+      "rows_not_system": 4998630,
+      "rows_english": 2855986,
+      "unique_english": 1079311
+    }
+  },
+  "unique_english_total": 1851646,
+  "rows_english_total": 4456960,
+  "duplicate_rate": 0.5845,
+  "pool_label_counts": {
+    "neutral/positive": 1580788,
+    "negative": 242556,
+    "derogatory": 28302
+  },
+  "top_rules": {
+    "none": 1580788,
+    "neg:report*": 56393,
+    "neg:fuck*": 38414,
+    "neg:noob*": 23063,
+    "neg:ez": 22898,
+    "neg:shit*": 13809,
+    "derog:retard*": 10392,
+    "neg:feed": 10391,
+    "neg:troll*": 7164,
+    "neg:idiot*": 6771,
+    "neg:suck": 4877,
+    "neg:stupid*": 4731,
+    "derog:bitch*": 4603,
+    "neg:fck*": 4275,
+    "neg:useless": 4224,
+    "neg:trash": 3931,
+    "neg:stfu": 3526,
+    "neg:shut up": 2729,
+    "neg:feeding": 2630,
+    "neg_ctx:bad": 2585,
+    "neg:fuk*": 2423,
+    "neg:bronze": 2325,
+    "neg:worst": 2260,
+    "neg:cancer*": 2242,
+    "neg:dumb*": 2142,
+    "neg:dick": 1722,
+    "neg:sucks": 1706,
+    "derog:cunt*": 1688,
+    "neg:feeder*": 1625,
+    "neg:fu": 1483
+  },
+  "dedup_splits": {
+    "train": {
+      "n": 21120,
+      "class_counts": {
+        "0": 9504,
+        "1": 6336,
+        "2": 5280
+      }
+    },
+    "val": {
+      "n": 5280,
+      "class_counts": {
+        "0": 2376,
+        "1": 1584,
+        "2": 1320
+      }
+    },
+    "test": {
+      "n": 6600,
+      "class_counts": {
+        "0": 2970,
+        "1": 1980,
+        "2": 1650
+      }
+    },
+    "test_rows_seen_in_train": 0.0
+  },
+  "with_dups_splits": {
+    "train": {
+      "n": 21120,
+      "class_counts": {
+        "0": 9504,
+        "1": 6336,
+        "2": 5280
+      }
+    },
+    "val": {
+      "n": 5280,
+      "class_counts": {
+        "0": 2376,
+        "1": 1584,
+        "2": 1320
+      }
+    },
+    "test": {
+      "n": 6600,
+      "class_counts": {
+        "0": 2970,
+        "1": 1980,
+        "2": 1650
+      }
+    },
+    "test_rows_seen_in_train": 0.3158
+  },
+  "with_dups_unique_texts": 23709,
+  "w2v_corpus_messages": 1839766
+}

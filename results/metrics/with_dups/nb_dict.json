@@ -1,0 +1,95 @@
+{
+  "key": "nb_dict",
+  "name": "Naive Bayes (lexicon counts)",
+  "family": "Naive Bayes",
+  "features": "lexicon",
+  "task": "multiclass",
+  "dataset": "with_dups",
+  "train_seconds": 2.61,
+  "n_features": 171,
+  "val": {
+    "accuracy": 0.9342803030303031,
+    "macro_f1": 0.9349081172596091,
+    "per_class": {
+      "0": {
+        "precision": 0.8732083792723263,
+        "recall": 1.0,
+        "f1": 0.9323131253678635,
+        "support": 2376
+      },
+      "1": {
+        "precision": 0.9985663082437276,
+        "recall": 0.8794191919191919,
+        "f1": 0.9352131587781135,
+        "support": 1584
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 0.8818181818181818,
+        "f1": 0.9371980676328503,
+        "support": 1320
+      }
+    },
+    "confusion_matrix": [
+      [
+        2376,
+        0,
+        0
+      ],
+      [
+        191,
+        1393,
+        0
+      ],
+      [
+        154,
+        2,
+        1164
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9331818181818182,
+    "macro_f1": 0.9339005980493269,
+    "per_class": {
+      "0": {
+        "precision": 0.872502937720329,
+        "recall": 1.0,
+        "f1": 0.9319108879824286,
+        "support": 2970
+      },
+      "1": {
+        "precision": 0.9959537572254336,
+        "recall": 0.8702020202020202,
+        "f1": 0.9288409703504044,
+        "support": 1980
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 0.8884848484848484,
+        "f1": 0.9409499358151476,
+        "support": 1650
+      }
+    },
+    "confusion_matrix": [
+      [
+        2970,
+        0,
+        0
+      ],
+      [
+        257,
+        1723,
+        0
+      ],
+      [
+        177,
+        7,
+        1466
+      ]
+    ],
+    "share_seen_in_train": 0.31575757575757574,
+    "accuracy_seen": 0.9649712092130518,
+    "accuracy_unseen": 0.9185119574844995
+  }
+}

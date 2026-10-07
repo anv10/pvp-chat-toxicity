@@ -1,0 +1,102 @@
+# CLASS 1: NEGATIVE ATTITUDE. Gaming insults, taunts, blaming, profanity aimed
+# at players. Only checked when nothing in derogatory.txt matched.
+# Same format as derogatory.txt (trailing '*' = prefix match, no apostrophes).
+#
+# Context-dependent words are NOT listed here, because a word list can't tell
+# the uses apart. They are handled as regex rules in src/labeling.py:
+#   "bad": "my bad" is neutral, "you're bad" / "bad jungle" is negative
+
+# skill insults
+noob*
+nub
+nubs
+newb*
+trash
+garbage
+useless
+worthless
+hopeless
+pathetic
+idiot*
+stupid*
+dumb*
+moron*
+loser*
+clown*
+monkey
+monkeys
+brainless
+braindead
+brain dead
+no brain
+awful
+terrible
+horrible
+worst
+boosted
+hardstuck
+bronze
+l2p
+learn to play
+learn 2 play
+
+# blaming / "X diff" taunts
+feeder*
+feed
+feeding
+inting
+thrower
+throwing
+troll*
+jungle diff
+mid diff
+top diff
+bot diff
+supp diff
+support diff
+adc diff
+carry diff
+skill diff
+team diff
+jungle gap
+mid gap
+top gap
+bot gap
+hacker*
+cheater*
+
+# reporting / quitting threats
+report*
+uninstall*
+
+# taunting ("gg" alone is fine; "gg ez" is negative because of "ez")
+ez
+ezz
+easy game
+ez game
+too easy
+
+# profanity aimed at players
+fuck*
+fuk*
+fck*
+fk u
+fu
+stfu
+gtfo
+shut up
+shut the fuck up
+fuck off
+piss off
+go die
+shit*
+asshole*
+dick
+dickhead*
+motherfucker*
+jerk
+suck
+sucks
+sucked
+sucking
+cancer*

@@ -1,0 +1,98 @@
+{
+  "key": "ff_gamew2v100",
+  "name": "Feedforward NN (game-chat word2vec 100d)",
+  "family": "Feedforward NN",
+  "features": "gamew2v100",
+  "task": "multiclass",
+  "dataset": "dedup",
+  "train_seconds": 8.01,
+  "epochs_run": 36,
+  "best_epoch": 32,
+  "vocab_size": 8186,
+  "params": 827443,
+  "val": {
+    "accuracy": 0.8895833333333333,
+    "macro_f1": 0.8812589212764216,
+    "per_class": {
+      "0": {
+        "precision": 0.8921259842519685,
+        "recall": 0.9537037037037037,
+        "f1": 0.9218877135882831,
+        "support": 2376
+      },
+      "1": {
+        "precision": 0.8826229508196721,
+        "recall": 0.8497474747474747,
+        "f1": 0.8658732711482792,
+        "support": 1584
+      },
+      "2": {
+        "precision": 0.8930041152263375,
+        "recall": 0.821969696969697,
+        "f1": 0.8560157790927022,
+        "support": 1320
+      }
+    },
+    "confusion_matrix": [
+      [
+        2266,
+        69,
+        41
+      ],
+      [
+        149,
+        1346,
+        89
+      ],
+      [
+        125,
+        110,
+        1085
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.8796969696969696,
+    "macro_f1": 0.8702357363201028,
+    "per_class": {
+      "0": {
+        "precision": 0.8848217103187125,
+        "recall": 0.9441077441077441,
+        "f1": 0.9135038279850138,
+        "support": 2970
+      },
+      "1": {
+        "precision": 0.8710837185413457,
+        "recall": 0.8565656565656565,
+        "f1": 0.863763687293099,
+        "support": 1980
+      },
+      "2": {
+        "precision": 0.8800539083557951,
+        "recall": 0.7915151515151515,
+        "f1": 0.8334396936821953,
+        "support": 1650
+      }
+    },
+    "confusion_matrix": [
+      [
+        2804,
+        105,
+        61
+      ],
+      [
+        167,
+        1696,
+        117
+      ],
+      [
+        198,
+        146,
+        1306
+      ]
+    ],
+    "share_seen_in_train": 0.0,
+    "accuracy_seen": null,
+    "accuracy_unseen": 0.8796969696969696
+  }
+}

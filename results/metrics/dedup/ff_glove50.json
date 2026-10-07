@@ -1,0 +1,98 @@
+{
+  "key": "ff_glove50",
+  "name": "Feedforward NN (GloVe 50d)",
+  "family": "Feedforward NN",
+  "features": "glove50",
+  "task": "multiclass",
+  "dataset": "dedup",
+  "train_seconds": 4.81,
+  "epochs_run": 24,
+  "best_epoch": 20,
+  "vocab_size": 6178,
+  "params": 314443,
+  "val": {
+    "accuracy": 0.8255681818181818,
+    "macro_f1": 0.8164553040545645,
+    "per_class": {
+      "0": {
+        "precision": 0.7944126074498568,
+        "recall": 0.9335016835016835,
+        "f1": 0.858359133126935,
+        "support": 2376
+      },
+      "1": {
+        "precision": 0.8387563268257412,
+        "recall": 0.7323232323232324,
+        "f1": 0.7819346140883047,
+        "support": 1584
+      },
+      "2": {
+        "precision": 0.8877828054298642,
+        "recall": 0.7431818181818182,
+        "f1": 0.8090721649484536,
+        "support": 1320
+      }
+    },
+    "confusion_matrix": [
+      [
+        2218,
+        116,
+        42
+      ],
+      [
+        342,
+        1160,
+        82
+      ],
+      [
+        232,
+        107,
+        981
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.8201515151515152,
+    "macro_f1": 0.8119232861998501,
+    "per_class": {
+      "0": {
+        "precision": 0.7806744120147351,
+        "recall": 0.9276094276094277,
+        "f1": 0.8478227419603016,
+        "support": 2970
+      },
+      "1": {
+        "precision": 0.8449971081550028,
+        "recall": 0.7378787878787879,
+        "f1": 0.7878134267996765,
+        "support": 1980
+      },
+      "2": {
+        "precision": 0.8919523099850969,
+        "recall": 0.7254545454545455,
+        "f1": 0.8001336898395722,
+        "support": 1650
+      }
+    },
+    "confusion_matrix": [
+      [
+        2755,
+        142,
+        73
+      ],
+      [
+        447,
+        1461,
+        72
+      ],
+      [
+        327,
+        126,
+        1197
+      ]
+    ],
+    "share_seen_in_train": 0.0,
+    "accuracy_seen": null,
+    "accuracy_unseen": 0.8201515151515152
+  }
+}

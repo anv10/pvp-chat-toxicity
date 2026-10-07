@@ -1,0 +1,111 @@
+# CLASS 2: DEROGATORY. Slurs, identity-based insults (race, sexuality, gender,
+# disability), and severe harassment such as telling someone to kill themselves.
+# If a message matches anything here it gets label 2, even when it also matches
+# the negative list.
+#
+# Format (shared by all lexicon files):
+#   - one term or phrase per line, lowercase; '#' starts a comment
+#   - write words without apostrophes ("youre", not "you're"), because the
+#     matcher strips apostrophes first
+#   - a trailing '*' means prefix match: "faggot*" also matches "faggots"
+#   - no need to list obfuscated spellings: the matcher in src/labeling.py
+#     handles leetspeak (f4g, n1gg3r), masking (f*g, n***a), stretched letters
+#     (faaag), separators (f.a.g) and spaced letters (f a g)
+
+# racist / ethnic slurs
+nigger*
+nigga*
+niga
+nigg*
+negro
+sandnigger*
+chink*
+gook*
+spic
+spics
+wetback*
+kike*
+paki
+pakis
+towelhead*
+raghead*
+coon
+coons
+beaner*
+jungle bunny
+go back to your country
+
+# homophobic / transphobic
+fag
+fags
+faggot*
+fagot*
+faggy
+fagg*
+homo
+homos
+dyke*
+tranny*
+trannies
+gaylord*
+cocksucker*
+cock sucker
+ur gay
+u gay
+you gay
+youre gay
+so gay
+is gay
+are gay
+and gay
+fucking gay
+gay ass
+gay boy
+
+# sexist / misogynist
+bitch*
+whore*
+slut*
+cunt*
+skank*
+hoe
+hoes
+go back to the kitchen
+back to the kitchen
+get back in the kitchen
+make me a sandwich
+girls cant play
+women cant play
+# "rape" is often used in chat to mean "dominate"; we still treat it as
+# derogatory because it is sexual-violence language. Remove if you disagree.
+rape
+raped
+raping
+rapist*
+
+# ableist slurs
+retard*
+tard
+tards
+autist*
+mongoloid*
+downie
+
+# severe harassment / self-harm incitement
+kys
+kill yourself
+kill urself
+kill ur self
+kill your self
+hang yourself
+hang urself
+neck yourself
+drink bleach
+get cancer
+die in a fire
+hope you die
+hope u die
+fuck your mother
+fuck ur mother
+fuck your mom
+fuck ur mom

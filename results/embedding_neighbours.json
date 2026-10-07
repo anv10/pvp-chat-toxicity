@@ -1,0 +1,330 @@
+{
+  "glove50": {
+    "noob": [
+      "saibot",
+      "pakka",
+      "bionda",
+      "simhadri",
+      "tiya",
+      "nuka"
+    ],
+    "feeder": [
+      "overground",
+      "caledonian",
+      "mainline",
+      "terminating",
+      "feeders",
+      "routes"
+    ],
+    "gg": [
+      "allin",
+      "kage",
+      "nomos",
+      "assegai",
+      "wh",
+      "tamago"
+    ],
+    "ez": [
+      "felicidade",
+      "daa",
+      "fense",
+      "rochereau",
+      "pumpin",
+      "a-chip"
+    ],
+    "bronze": [
+      "silver",
+      "gold",
+      "medal",
+      "medals",
+      "medallist",
+      "medalist"
+    ],
+    "report": [
+      "reports",
+      "cited",
+      "according",
+      "citing",
+      "reported",
+      "agency"
+    ],
+    "jungle": [
+      "jungles",
+      "desert",
+      "remote",
+      "rugged",
+      "mountainous",
+      "infested"
+    ],
+    "ff": [
+      "trelleborgs",
+      "malm\u00f6",
+      "viborg",
+      "malmo",
+      "\u00e5tvidabergs",
+      "tyres\u00f6"
+    ],
+    "carry": [
+      "use",
+      "carrying",
+      "intended",
+      "them",
+      "instead",
+      "supposed"
+    ],
+    "toxic": [
+      "radioactive",
+      "poisonous",
+      "wastes",
+      "chemicals",
+      "sludge",
+      "waste"
+    ]
+  },
+  "glove100": {
+    "noob": [
+      "saibot",
+      "\u03b5\u1f30\u03c2",
+      "usanee",
+      "tom.fowler@chron.com",
+      "bobolink",
+      "suhani"
+    ],
+    "feeder": [
+      "hogs",
+      "bellies",
+      "0.375",
+      "feeders",
+      "cattle",
+      "0.475"
+    ],
+    "gg": [
+      "allin",
+      "3,3",
+      "kl",
+      "fh",
+      "jfs",
+      "\u00f0"
+    ],
+    "ez": [
+      "erap",
+      "a-2",
+      "bulworth",
+      "mh",
+      "washable",
+      "pax"
+    ],
+    "bronze": [
+      "silver",
+      "gold",
+      "medal",
+      "medalist",
+      "medals",
+      "medallist"
+    ],
+    "report": [
+      "reports",
+      "reported",
+      "cited",
+      "citing",
+      "according",
+      "reporting"
+    ],
+    "jungle": [
+      "jungles",
+      "desert",
+      "mountainous",
+      "lacandon",
+      "mountain",
+      "hideout"
+    ],
+    "ff": [
+      "~",
+      "malm\u00f6",
+      "trelleborgs",
+      "fff",
+      "\u00e5tvidabergs",
+      "g\u00f6teborg"
+    ],
+    "carry": [
+      "carried",
+      "take",
+      "carrying",
+      "make",
+      "able",
+      "use"
+    ],
+    "toxic": [
+      "radioactive",
+      "poisonous",
+      "hazardous",
+      "wastes",
+      "contaminated",
+      "toxins"
+    ]
+  },
+  "gamew2v50": {
+    "noob": [
+      "nobo",
+      "noobb",
+      "nub",
+      "retard",
+      "idiot",
+      "feeder"
+    ],
+    "feeder": [
+      "flamer",
+      "nob",
+      "noob",
+      "nobo",
+      "usles",
+      "nobb"
+    ],
+    "gg": [
+      "ggwp",
+      "wp",
+      "bg",
+      "ok",
+      "ez",
+      "np"
+    ],
+    "ez": [
+      "eazy",
+      "ezy",
+      "easy",
+      "ezz",
+      "eez",
+      "hahahhaa"
+    ],
+    "bronze": [
+      "silver",
+      "platin",
+      "plat",
+      "platinum",
+      "diamond",
+      "challenger"
+    ],
+    "report": [
+      "reprot",
+      "rpeort",
+      "rep",
+      "reported",
+      "reort",
+      "reoprt"
+    ],
+    "jungle": [
+      "jungl",
+      "jugnle",
+      "jungel",
+      "jung",
+      "woods",
+      "top"
+    ],
+    "ff": [
+      "end",
+      "surr",
+      "surender",
+      "finish",
+      "finihs",
+      "trone"
+    ],
+    "carry": [
+      "cary",
+      "support",
+      "caryy",
+      "core",
+      "carru",
+      "carrie"
+    ],
+    "toxic": [
+      "unskilled",
+      "annoying",
+      "childish",
+      "pathetic",
+      "braindead",
+      "negative"
+    ]
+  },
+  "gamew2v100": {
+    "noob": [
+      "nobo",
+      "noobb",
+      "idiot",
+      "nub",
+      "retard",
+      "nob"
+    ],
+    "feeder": [
+      "flamer",
+      "nob",
+      "usles",
+      "noob",
+      "nobo",
+      "nobb"
+    ],
+    "gg": [
+      "ggwp",
+      "wp",
+      "bg",
+      "gege",
+      "goo",
+      "eazy"
+    ],
+    "ez": [
+      "eazy",
+      "easy",
+      "ezy",
+      "ezz",
+      "izi",
+      "eez"
+    ],
+    "bronze": [
+      "silver",
+      "plat",
+      "diamond",
+      "platinum",
+      "platin",
+      "challenger"
+    ],
+    "report": [
+      "reprot",
+      "rpeort",
+      "rep",
+      "repor",
+      "reported",
+      "repport"
+    ],
+    "jungle": [
+      "jugnle",
+      "jung",
+      "jungel",
+      "jungl",
+      "woods",
+      "jungling"
+    ],
+    "ff": [
+      "end",
+      "surender",
+      "surr",
+      "finihs",
+      "finish",
+      "trone"
+    ],
+    "carry": [
+      "cary",
+      "support",
+      "core",
+      "caryy",
+      "carries",
+      "roamer"
+    ],
+    "toxic": [
+      "unskilled",
+      "childish",
+      "noisy",
+      "annoying",
+      "anoying",
+      "pathetic"
+    ]
+  }
+}
