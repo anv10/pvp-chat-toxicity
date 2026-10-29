@@ -155,5 +155,6 @@ if text.strip():
                              "test macro F1": st.column_config.NumberColumn(format="%.3f")})
 
 st.divider()
-st.caption("Labels come from lexicon rules, not human annotators, so predictions reflect "
-           "those rules. Models: trained on deduplicated LoL Tribunal + GOSU.AI Dota 2 chat.")
+st.caption("Labels were assigned message by message by an LLM following a written gamer-chat guideline "
+           "(95% agreement with a 298-message hand check), not by human annotators. "
+           "Models: trained on deduplicated LoL Tribunal + GOSU.AI Dota 2 chat.")

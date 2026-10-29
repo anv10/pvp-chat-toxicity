@@ -23,7 +23,7 @@ from src.train_ml import load_split
 
 ARCHS = {"ff": "Feedforward NN", "lstm": "LSTM"}
 EMB_NAMES = {"glove50": "GloVe 50d", "glove100": "GloVe 100d",
-             "gamew2v50": "game-chat word2vec 50d", "gamew2v100": "game-chat word2vec 100d"}
+             "gameft50": "game-chat fastText 50d", "gameft100": "game-chat fastText 100d"}
 MODEL_KEYS = [f"{a}_{e}" for a in ARCHS for e in EMBEDDINGS]
 
 MAX_EPOCHS = 100

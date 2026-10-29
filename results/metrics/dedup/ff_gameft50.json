@@ -1,0 +1,98 @@
+{
+  "key": "ff_gameft50",
+  "name": "Feedforward NN (game-chat fastText 50d)",
+  "family": "Feedforward NN",
+  "features": "gameft50",
+  "task": "multiclass",
+  "dataset": "dedup",
+  "train_seconds": 3.31,
+  "epochs_run": 17,
+  "best_epoch": 13,
+  "vocab_size": 11021,
+  "params": 556593,
+  "val": {
+    "accuracy": 0.7471590909090909,
+    "macro_f1": 0.7380420995037437,
+    "per_class": {
+      "0": {
+        "precision": 0.7372477064220183,
+        "recall": 0.8819139596136962,
+        "f1": 0.8031181291225264,
+        "support": 2278
+      },
+      "1": {
+        "precision": 0.7480499219968799,
+        "recall": 0.5348577802565533,
+        "f1": 0.623739837398374,
+        "support": 1793
+      },
+      "2": {
+        "precision": 0.7674783974862529,
+        "recall": 0.8081058726220016,
+        "f1": 0.7872683319903304,
+        "support": 1209
+      }
+    },
+    "confusion_matrix": [
+      [
+        2009,
+        218,
+        51
+      ],
+      [
+        589,
+        959,
+        245
+      ],
+      [
+        127,
+        105,
+        977
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.746969696969697,
+    "macro_f1": 0.7387923945865059,
+    "per_class": {
+      "0": {
+        "precision": 0.73841642228739,
+        "recall": 0.8794970310862732,
+        "f1": 0.8028056751155747,
+        "support": 2863
+      },
+      "1": {
+        "precision": 0.7338516746411483,
+        "recall": 0.5472792149866191,
+        "f1": 0.6269800715380685,
+        "support": 2242
+      },
+      "2": {
+        "precision": 0.7806324110671937,
+        "recall": 0.7926421404682275,
+        "f1": 0.7865914371058745,
+        "support": 1495
+      }
+    },
+    "confusion_matrix": [
+      [
+        2518,
+        298,
+        47
+      ],
+      [
+        729,
+        1227,
+        286
+      ],
+      [
+        163,
+        147,
+        1185
+      ]
+    ],
+    "share_seen_in_train": 0.0,
+    "accuracy_seen": null,
+    "accuracy_unseen": 0.746969696969697
+  }
+}

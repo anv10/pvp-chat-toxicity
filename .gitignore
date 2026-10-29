@@ -15,3 +15,6 @@ data/processed/w2v_corpus.txt
 
 # Per-message test predictions (12MB); regenerate with python -m src.evaluate
 results/predictions/
+
+# Local backup of the previous models/results
+models_old/
