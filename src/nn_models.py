@@ -26,7 +26,7 @@ def build_vocab(texts, kv) -> dict[str, int]:
     vocab = {}
     for text in texts:
         for tok in tokenize(text):
-            if tok not in vocab and tok in kv.key_to_index:
+            if tok not in vocab and tok in kv:  # fastText: True for any spelling it can build a vector for
                 vocab[tok] = len(vocab) + 2
     return vocab
 

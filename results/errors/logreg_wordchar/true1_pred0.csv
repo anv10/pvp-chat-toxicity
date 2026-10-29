@@ -1,31 +1,527 @@
 text,text_norm,source,label,true,pred,p0,p1,p2
-CLownfest)0,clownfest)0,dota,1,1,0,0.9654,0.0324,0.0023
-so that's what your hacker do?,so that's what your hacker do?,dota,1,1,0,0.9635,0.0271,0.0094
-so stttuuuupid...,so sttuupid..,dota,1,1,0,0.9472,0.0496,0.0032
-'veno bad mid','veno bad mid',dota,1,1,0,0.9438,0.0557,0.0005
-why cheater ?,why cheater ?,lol,1,1,0,0.9318,0.0612,0.0071
-carry gankingg my dickkkkkkkk,carry gankingg my dickk,dota,1,1,0,0.9004,0.0897,0.0099
-unbelievable bad team,unbelievable bad team,lol,1,1,0,0.8796,0.1146,0.0058
-TO MUCH TALK LOSSER,to much talk losser,dota,1,1,0,0.8574,0.1345,0.0081
-i take in the map learn to play,i take in the map learn to play,lol,1,1,0,0.804,0.1875,0.0085
-son canceres en potencia,son canceres en potencia,lol,1,1,0,0.7794,0.1901,0.0305
-"lol graves, ur so bad... is lee sin the op lol","lol graves, ur so bad.. is lee sin the op lol",lol,1,1,0,0.7655,0.2125,0.0221
-ur just bad jungle,ur just bad jungle,lol,1,1,0,0.7443,0.2493,0.0064
-Ez11,ez11,dota,1,1,0,0.744,0.2487,0.0073
-wtf cancererous,wtf cancererous,dota,1,1,0,0.7115,0.2805,0.008
-send this clown to lp guys ty,send this clown to lp guys ty,dota,1,1,0,0.7092,0.2882,0.0026
-xerath newb,xerath newb,lol,1,1,0,0.692,0.3032,0.0049
-riven you are very very bad,riven you are very very bad,lol,1,1,0,0.6553,0.3419,0.0028
-i never see bad team like this,i never see bad team like this,dota,1,1,0,0.6506,0.3365,0.0129
-veyn super feedddd,veyn super feedd,lol,1,1,0,0.6308,0.3442,0.025
-yichamp f*ck..,yichamp f*ck..,lol,1,1,0,0.6227,0.3644,0.0129
-Are you guys chinese LOSErate farmers?,are you guys chinese loserate farmers?,dota,1,1,0,0.6045,0.2875,0.1081
-ggwp easy game,ggwp easy game,dota,1,1,0,0.5993,0.3973,0.0034
-but u know he's bad,but u know he's bad,lol,1,1,0,0.5947,0.3989,0.0064
-she seems cancerous,she seems cancerous,dota,1,1,0,0.5836,0.4127,0.0037
-we have bad top lane... and we lose because of it,we have bad top lane.. and we lose because of it,lol,1,1,0,0.5473,0.4449,0.0078
-not ffeeder,not ffeeder,lol,1,1,0,0.5314,0.4415,0.0271
-And I kno that i play awfull this game,and i kno that i play awfull this game,lol,1,1,0,0.5192,0.475,0.0057
-"were not scared, because scared motherfucker go to church","were not scared, because scared motherfucker go to church",dota,1,1,0,0.5091,0.4362,0.0547
-these 2 mother fuker medusa abd es,these 2 mother fuker medusa abd es,dota,1,1,0,0.5085,0.4116,0.0799
-não jogo com peruano cancer,não jogo com peruano cancer,dota,1,1,0,0.4524,0.3511,0.1964
+dont need excuse,dont need excuse,dota,1,1,0,0.9992,0.0006,0.0002
+i am the best in this game..,i am the best in this game..,lol,1,1,0,0.999,0.001,0.0
+nho me jod,nho me jod,dota,1,1,0,0.9989,0.0009,0.0002
+dont come mid,dont come mid,lol,1,1,0,0.9985,0.0011,0.0004
+def ? ahaha,def ? ahaha,dota,1,1,0,0.9985,0.0014,0.0001
+love 1v3 <3,love 1v3 <3,dota,1,1,0,0.9974,0.0026,0.0
+dont let it freemofos,dont let it freemofos,lol,1,1,0,0.9966,0.0032,0.0002
+IF CAN'T MID,if can't mid,dota,1,1,0,0.9965,0.0035,0.0001
+ABANDON ALREADY,abandon already,dota,1,1,0,0.9965,0.0033,0.0002
+waaa waa im sf,waa waa im sf,dota,1,1,0,0.9961,0.0039,0.0
+gr8 work,gr8 work,lol,1,1,0,0.9961,0.0034,0.0006
+bot was totaly out of game,bot was totaly out of game,lol,1,1,0,0.9958,0.003,0.0013
+ne 4ekal,ne 4ekal,dota,1,1,0,0.9957,0.0041,0.0001
+I'm your boss,i'm your boss,dota,1,1,0,0.9951,0.0031,0.0018
+i'm the unic good hre,i'm the unic good hre,lol,1,1,0,0.995,0.0028,0.0021
+you werent good.,you werent good.,dota,1,1,0,0.9949,0.0032,0.0019
+go better cm,go better cm,dota,1,1,0,0.9944,0.0052,0.0003
+if i was you i will check what my gf do,if i was you i will check what my gf do,lol,1,1,0,0.9943,0.0044,0.0013
+JUST CHECK MY PREVIOUS RANKED AND TELL ME IF I CANT WIN,just check my previous ranked and tell me if i cant win,dota,1,1,0,0.9942,0.004,0.0018
+e jogo mal disto,e jogo mal disto,lol,1,1,0,0.9939,0.0049,0.0012
+eo' gl dc dau=)),eo' gl dc dau=)),dota,1,1,0,0.9938,0.0056,0.0007
+where was he when mid got destoryed?,where was he when mid got destoryed?,lol,1,1,0,0.9937,0.0062,0.0002
+4th mistake in 2 min,4th mistake in 2 min,lol,1,1,0,0.9926,0.0061,0.0014
+can you defend?,can you defend?,lol,1,1,0,0.9915,0.0079,0.0006
+we cant win if u have that attitude,we cant win if u have that attitude,lol,1,1,0,0.9914,0.0082,0.0004
+stoip defend,stoip defend,dota,1,1,0,0.9913,0.0077,0.001
+18 assist ?,18 assist ?,dota,1,1,0,0.9909,0.0081,0.0009
+always at other lanes,always at other lanes,lol,1,1,0,0.99,0.0094,0.0005
+look where team is,look where team is,lol,1,1,0,0.9888,0.0103,0.0009
+ne xuy,ne xuy,dota,1,1,0,0.9886,0.0111,0.0002
+yeah well played,yeah well played,lol,1,1,0,0.9875,0.0121,0.0004
+stay on the fucking  fountain,stay on the fucking fountain,dota,1,1,0,0.9871,0.0106,0.0023
+stop stay top,stop stay top,lol,1,1,0,0.987,0.0125,0.0005
+no say ss????,no say ss??,lol,1,1,0,0.9865,0.013,0.0005
+1v1 wiht me bb,1v1 wiht me bb,dota,1,1,0,0.9864,0.0133,0.0003
+tinker like script?,tinker like script?,dota,1,1,0,0.9861,0.0118,0.0021
+NO ATAK???,no atak??,dota,1,1,0,0.986,0.0139,0.0001
+LUX BUY FUECK WARDS,lux buy fueck wards,lol,1,1,0,0.9859,0.0134,0.0007
+stay in lp then,stay in lp then,dota,1,1,0,0.9859,0.0137,0.0003
+no wards jax,no wards jax,lol,1,1,0,0.9855,0.0136,0.0008
+ezreal afk?,ezreal afk?,lol,1,1,0,0.9854,0.014,0.0005
+GO KILL THEM I WONT HELP LOL,go kill them i wont help lol,dota,1,1,0,0.9848,0.0027,0.0126
+8 armor bish,8 armor bish,dota,1,1,0,0.9845,0.0118,0.0036
+WHY FOCUS SEJU OMG,why focus seju omg,lol,1,1,0,0.9833,0.0147,0.002
+been put on his place,been put on his place,dota,1,1,0,0.983,0.0098,0.0072
+AND CANT USE 1 BUTTON))))),and cant use 1 button)),dota,1,1,0,0.9829,0.016,0.001
+AGG GG ENTREN MRD,agg gg entren mrd,dota,1,1,0,0.9822,0.0065,0.0113
+um merdinha,um merdinha,dota,1,1,0,0.9815,0.0155,0.003
+i say have mouse problem,i say have mouse problem,dota,1,1,0,0.9811,0.0171,0.0019
+yopu cant get anywhere,yopu cant get anywhere,dota,1,1,0,0.9805,0.0137,0.0057
+i love tinker smurfs in mygames,i love tinker smurfs in mygames,dota,1,1,0,0.9804,0.019,0.0006
+jinx good mana waste,jinx good mana waste,lol,1,1,0,0.9793,0.0126,0.0081
+can u tell me how i troll? :D,can u tell me how i troll? :d,lol,1,1,0,0.9791,0.0204,0.0004
+SLUTA TA MIN FARM JAG SVÄR JAG LEAVAR,sluta ta min farm jag svär jag leavar,lol,1,1,0,0.9778,0.0199,0.0023
+1v5 gae,1v5 gae,dota,1,1,0,0.9775,0.0215,0.001
+0 support im guessing,0 support im guessing,dota,1,1,0,0.9772,0.0228,0.0
+so confident hahaha,so confident hahaha,dota,1,1,0,0.9771,0.0203,0.0027
+'anyone who is better than me is a virgin','anyone who is better than me is a virgin',dota,1,1,0,0.9771,0.0153,0.0076
+i rek anyone with jugger dude,i rek anyone with jugger dude,dota,1,1,0,0.9769,0.0203,0.0028
+callate vos pt,callate vos pt,dota,1,1,0,0.9768,0.0228,0.0005
+donft deff,donft deff,dota,1,1,0,0.9767,0.0224,0.0009
+he can t beat me,he can t beat me,lol,1,1,0,0.9757,0.0177,0.0066
+HUYA'R,huya'r,dota,1,1,0,0.975,0.0197,0.0053
+diumb ?,diumb ?,dota,1,1,0,0.9749,0.0246,0.0005
+dont waste the time,dont waste the time,dota,1,1,0,0.9733,0.0263,0.0003
+koe cupu mesti,koe cupu mesti,dota,1,1,0,0.9732,0.0228,0.004
+And dont come again,and dont come again,lol,1,1,0,0.9724,0.0213,0.0063
+wellplay,wellplay,dota,1,1,0,0.9696,0.0285,0.0019
+whats your problems to go in,whats your problems to go in,lol,1,1,0,0.9695,0.0204,0.01
+GO AWQAY,go awqay,dota,1,1,0,0.9693,0.0277,0.003
+i dont give  shit anymore you ask for vision but no one follows me,i dont give shit anymore you ask for vision but no one follows me,lol,1,1,0,0.9685,0.0276,0.0039
+try to play better,try to play better,lol,1,1,0,0.9683,0.0291,0.0027
+luckiest guy i have seen,luckiest guy i have seen,dota,1,1,0,0.9683,0.0287,0.0031
+where's my team,where's my team,dota,1,1,0,0.9662,0.0273,0.0065
+nice double mid OP,nice double mid op,lol,1,1,0,0.966,0.033,0.001
+tidur gembel,tidur gembel,dota,1,1,0,0.9659,0.0313,0.0028
+SO HEROIC,so heroic,lol,1,1,0,0.9653,0.0332,0.0015
+all cos this  riven,all cos this riven,lol,1,1,0,0.9653,0.0335,0.0011
+i did more then all team together,i did more then all team together,dota,1,1,0,0.9648,0.0332,0.0019
+fils de pute ce wuk,fils de pute ce wuk,lol,1,1,0,0.9646,0.0322,0.0032
+FUCCKIN YANKI,fucckin yanki,dota,1,1,0,0.9639,0.0338,0.0023
+first time i see people only put 3 wards,first time i see people only put 3 wards,lol,1,1,0,0.9638,0.0332,0.0031
+se burla,se burla,dota,1,1,0,0.9637,0.032,0.0043
+was ein lauch ^^,was ein lauch ^^,lol,1,1,0,0.9634,0.0209,0.0157
+nu dobeite,nu dobeite,dota,1,1,0,0.9629,0.0358,0.0013
+i was 9-2 then we got raped,i was 9-2 then we got raped,dota,1,1,0,0.9629,0.0361,0.001
+stop ganking while I'm not rdy,stop ganking while i'm not rdy,lol,1,1,0,0.9625,0.0161,0.0214
+"its a teamgame, douchebag","its a teamgame, douchebag",lol,1,1,0,0.9623,0.0345,0.0032
+if only u started? XD,if only u started? xd,lol,1,1,0,0.9605,0.0359,0.0036
+BUT DID YOU DIE?,but did you die?,dota,1,1,0,0.9604,0.0263,0.0133
+he has to do his dumcunt combo even though we dnt need it.,he has to do his dumcunt combo even though we dnt need it.,dota,1,1,0,0.9599,0.0147,0.0255
+gj seju top,gj seju top,lol,1,1,0,0.9598,0.0396,0.0007
+5 afk?,5 afk?,lol,1,1,0,0.9594,0.0401,0.0005
+you have 4 deads,you have 4 deads,lol,1,1,0,0.9566,0.0217,0.0217
+bezdari gde dasti?),bezdari gde dasti?),dota,1,1,0,0.9565,0.0415,0.002
+u have no chance,u have no chance,dota,1,1,0,0.9564,0.043,0.0006
+sluta gråta som en tjej,sluta gråta som en tjej,lol,1,1,0,0.955,0.0139,0.0311
+i mean raped u,i mean raped u,dota,1,1,0,0.9532,0.0433,0.0034
+ogre delete dota2 ty,ogre delete dota2 ty,dota,1,1,0,0.9531,0.0434,0.0035
+"3v4 win, dat elise usless.","3v4 win, dat elise usless.",lol,1,1,0,0.9518,0.0472,0.001
+didnt saw another gays,didnt saw another gays,lol,1,1,0,0.9516,0.0128,0.0356
+sad carry ye,sad carry ye,dota,1,1,0,0.9511,0.0459,0.003
+nic dodge,nic dodge,lol,1,1,0,0.951,0.0461,0.0029
+dont pause this,dont pause this,dota,1,1,0,0.9506,0.0425,0.0069
+1 btc and she gets raped tonight,1 btc and she gets raped tonight,dota,1,1,0,0.9501,0.016,0.0339
+NE zaebalsya hookat?,ne zaebalsya hookat?,dota,1,1,0,0.9495,0.0494,0.0011
+o cara é boludo,o cara é boludo,dota,1,1,0,0.9495,0.0449,0.0056
+nice ult kayle :P,nice ult kayle :p,lol,1,1,0,0.9488,0.0508,0.0005
+REAlLY GOOD,really good,dota,1,1,0,0.9488,0.0496,0.0017
+glhf poshelnahuy,glhf poshelnahuy,dota,1,1,0,0.9485,0.0487,0.0028
+just go where i see the badest,just go where i see the badest,lol,1,1,0,0.9485,0.0505,0.001
+self reflection meepo is the key,self reflection meepo is the key,dota,1,1,0,0.948,0.039,0.013
+pososi moi hui,pososi moi hui,dota,1,1,0,0.9469,0.0511,0.002
+INDOG DIAM,indog diam,dota,1,1,0,0.9465,0.0523,0.0013
+bando de,bando de,dota,1,1,0,0.9461,0.0531,0.0008
+hättst den pull getroffen,hättst den pull getroffen,lol,1,1,0,0.9448,0.0449,0.0102
+scriptovik,scriptovik,dota,1,1,0,0.9442,0.0541,0.0017
+YOU COULD HIT HIM,you could hit him,dota,1,1,0,0.9433,0.0544,0.0023
+wk fucked game,wk fucked game,dota,1,1,0,0.9427,0.056,0.0013
+pravilno 6te mi qde6 4urkata jiuvotno,pravilno 6te mi qde6 4urkata jiuvotno,dota,1,1,0,0.9422,0.0556,0.0022
+kassadin is only flaming...,kassadin is only flaming..,lol,1,1,0,0.94,0.058,0.0021
+CORKI im so laughing about you xd hahahhahh delete this game pls xd,corki im so laughing about you xd hahahhahh delete this game pls xd,lol,1,1,0,0.9384,0.0596,0.002
+such as all of you? gyus,such as all of you? gyus,dota,1,1,0,0.9374,0.0269,0.0357
+Nida .... LAAAAME !,nida .. laame !,lol,1,1,0,0.9363,0.0634,0.0003
+never go mid again,never go mid again,lol,1,1,0,0.936,0.0625,0.0015
+ez core go ff game,ez core go ff game,dota,1,1,0,0.9354,0.0637,0.0009
+only way you can kill me is 4v1 lel,only way you can kill me is 4v1 lel,lol,1,1,0,0.9333,0.0564,0.0103
+pig :(,pig :(,lol,1,1,0,0.9328,0.0664,0.0008
+why do you need red if you only farming :S,why do you need red if you only farming :s,lol,1,1,0,0.9302,0.0661,0.0036
+you know what help means?,you know what help means?,lol,1,1,0,0.9298,0.0601,0.0102
+scripting??,scripting??,dota,1,1,0,0.9288,0.0702,0.0009
+MAMON,mamon,dota,1,1,0,0.9286,0.0681,0.0033
+thats how useful this champ is,thats how useful this champ is,lol,1,1,0,0.9265,0.0701,0.0034
+yeah it was dumb,yeah it was dumb,lol,1,1,0,0.9232,0.0758,0.001
+puck zerooooooo,puck zeroo,dota,1,1,0,0.9223,0.0757,0.0019
+why varus die?,why varus die?,lol,1,1,0,0.9223,0.0719,0.0059
+maybe they wont be dicks,maybe they wont be dicks,lol,1,1,0,0.9221,0.0555,0.0224
+STOP FOCUS SUP,stop focus sup,lol,1,1,0,0.9215,0.0751,0.0034
+shit ap...,shit ap..,lol,1,1,0,0.9204,0.0788,0.0008
+just those trolls thinking nida is supp,just those trolls thinking nida is supp,lol,1,1,0,0.9184,0.0742,0.0074
+all lanes FEEDING I CAN'T CARRY THIS,all lanes feeding i can't carry this,lol,1,1,0,0.9176,0.0818,0.0006
+go on quinn not me plz,go on quinn not me plz,lol,1,1,0,0.9172,0.0822,0.0006
+r u rly platinum?,r u rly platinum?,lol,1,1,0,0.9147,0.0684,0.0169
+5 vs 1 hahaha,5 vs 1 hahaha,lol,1,1,0,0.9143,0.0841,0.0016
+why stop barking?,why stop barking?,dota,1,1,0,0.9131,0.0842,0.0027
+bh is raping ur anus,bh is raping ur anus,dota,1,1,0,0.9127,0.0468,0.0406
+check mom she dead,check mom she dead,dota,1,1,0,0.9122,0.0574,0.0304
+we can win if lux stop talking,we can win if lux stop talking,lol,1,1,0,0.9114,0.0876,0.001
+that was fabulous xD,that was fabulous xd,lol,1,1,0,0.9112,0.0858,0.003
+"only me, too pro","only me, too pro",dota,1,1,0,0.911,0.0882,0.0008
+virgin mustache,virgin mustache,lol,1,1,0,0.9106,0.0407,0.0487
+dont make childish threats over the internet.,dont make childish threats over the internet.,lol,1,1,0,0.9103,0.0767,0.013
+good team draven ^^,good team draven ^^,lol,1,1,0,0.9097,0.0868,0.0035
+kata afk ?,kata afk ?,lol,1,1,0,0.9097,0.0889,0.0014
+pota nma sk,pota nma sk,dota,1,1,0,0.9095,0.0886,0.0019
+you just let jax get on me,you just let jax get on me,lol,1,1,0,0.9089,0.0834,0.0077
+and lucian for afk,and lucian for afk,lol,1,1,0,0.9084,0.0871,0.0045
+AND THA SHIT IS TALKING,and tha shit is talking,dota,1,1,0,0.9082,0.0844,0.0074
+go 1v1 after with my plat acc?,go 1v1 after with my plat acc?,lol,1,1,0,0.9073,0.0918,0.0009
+START FUCKING GANKING MID FOR ONCE,start fucking ganking mid for once,lol,1,1,0,0.9065,0.0837,0.0098
+its end of a game dumb go mid,its end of a game dumb go mid,dota,1,1,0,0.9059,0.0769,0.0172
+ofc olaf why would he take smite if not ? noob kayle,ofc olaf why would he take smite if not ? noob kayle,lol,1,1,0,0.9058,0.0898,0.0044
+just stop speak mundo ^^,just stop speak mundo ^^,lol,1,1,0,0.9055,0.0703,0.0243
+tnks leblanck,tnks leblanck,lol,1,1,0,0.9047,0.0892,0.0062
+HATER GONA HATE,hater gona hate,dota,1,1,0,0.9046,0.0934,0.002
+Lee be quiete,lee be quiete,lol,1,1,0,0.9046,0.0907,0.0047
+blame jug,blame jug,dota,1,1,0,0.9045,0.0941,0.0014
+not even playing,not even playing,dota,1,1,0,0.9044,0.0947,0.0009
+next time come to help me,next time come to help me,lol,1,1,0,0.9032,0.0898,0.0069
+chinese guy,chinese guy,lol,1,1,0,0.901,0.0517,0.0474
+team is shitt,team is shitt,dota,1,1,0,0.9007,0.0973,0.002
+epic gj yea,epic gj yea,lol,1,1,0,0.8978,0.0986,0.0036
+ta se achando pq tem um sniper horrivel no meu time?,ta se achando pq tem um sniper horrivel no meu time?,dota,1,1,0,0.8975,0.0825,0.02
+mad are we?,mad are we?,lol,1,1,0,0.8972,0.1005,0.0023
+Never saw our adc WXD,never saw our adc wxd,lol,1,1,0,0.8963,0.1025,0.0011
+look shaco build XD,look shaco build xd,lol,1,1,0,0.8939,0.1057,0.0004
+fu :c,fu :c,lol,1,1,0,0.8929,0.0959,0.0111
+I fucked his family maybe,i fucked his family maybe,dota,1,1,0,0.8922,0.0369,0.0709
+s mertvou mamoi,s mertvou mamoi,dota,1,1,0,0.8912,0.104,0.0047
+poshle nahoooooooooooi,poshle nahooi,dota,1,1,0,0.8893,0.1062,0.0045
+why do you not follow,why do you not follow,lol,1,1,0,0.8879,0.1057,0.0064
+ex and elise can you actually do something,ex and elise can you actually do something,lol,1,1,0,0.8867,0.1104,0.003
+he is afk farming,he is afk farming,dota,1,1,0,0.8862,0.0968,0.017
+well smurfed,well smurfed,dota,1,1,0,0.8854,0.1131,0.0015
+and it would been ok when u all ran away,and it would been ok when u all ran away,lol,1,1,0,0.8849,0.1113,0.0038
+lol storm doesnt know,lol storm doesnt know,dota,1,1,0,0.884,0.1069,0.0091
+teri gaand marega hahah,teri gaand marega hahah,dota,1,1,0,0.8829,0.0709,0.0463
+guess ill max W for supprise buttsex W's,guess ill max w for supprise buttsex w's,lol,1,1,0,0.8826,0.1103,0.0071
+no troll but dont go top if u fed shyvana,no troll but dont go top if u fed shyvana,lol,1,1,0,0.8821,0.1165,0.0014
+back off mid,back off mid,lol,1,1,0,0.882,0.1174,0.0005
+we have thaidog,we have thaidog,dota,1,1,0,0.8818,0.1064,0.0118
+why you dont go mid?,why you dont go mid?,dota,1,1,0,0.8796,0.117,0.0034
+its fuckin boring stay afk jungle for 25 mins,its fuckin boring stay afk jungle for 25 mins,dota,1,1,0,0.8792,0.0831,0.0378
+ye rly who needs a map,ye rly who needs a map,lol,1,1,0,0.8781,0.1164,0.0055
+its easy to find excuses,its easy to find excuses,lol,1,1,0,0.8767,0.1212,0.0021
+i did better in csing throughout the entire lane,i did better in csing throughout the entire lane,lol,1,1,0,0.8764,0.1214,0.0022
+write a shit guide about it,write a shit guide about it,dota,1,1,0,0.876,0.1179,0.0061
+malza ult shen nice idea,malza ult shen nice idea,lol,1,1,0,0.8757,0.1223,0.002
+the best invoker in the wolrd,the best invoker in the wolrd,dota,1,1,0,0.8745,0.1045,0.021
+nice smoke guys,nice smoke guys,dota,1,1,0,0.8736,0.1237,0.0027
+stay back small pl,stay back small pl,dota,1,1,0,0.8733,0.1261,0.0006
+jivotnie ebanmie'1,jivotnie ebanmie'1,dota,1,1,0,0.8687,0.1267,0.0047
+denmark ftw IM A BIG FUCKIIING VIKING BITCHEEES*,denmark ftw im a big fuckiing viking bitchees*,lol,1,1,0,0.8678,0.0533,0.0789
+u were supposed to kill the adc first not nid,u were supposed to kill the adc first not nid,lol,1,1,0,0.8674,0.1133,0.0193
+my team afk base,my team afk base,dota,1,1,0,0.8669,0.1256,0.0075
+plz lasthit...,plz lasthit..,lol,1,1,0,0.8663,0.1322,0.0015
+For not supporting,for not supporting,dota,1,1,0,0.8646,0.1318,0.0036
+kha : plz. go feed :D,kha : plz. go feed :d,lol,1,1,0,0.8643,0.133,0.0027
+elise manca,elise manca,lol,1,1,0,0.8603,0.138,0.0017
+jug win sniper maybe so proud,jug win sniper maybe so proud,dota,1,1,0,0.8593,0.139,0.0017
+i always have to waste ult on u,i always have to waste ult on u,lol,1,1,0,0.8568,0.1407,0.0025
+USE BKB IN CRONO,use bkb in crono,dota,1,1,0,0.8567,0.1344,0.0089
+look my score and urs .. so whos the loer now,look my score and urs .. so whos the loer now,lol,1,1,0,0.8559,0.1239,0.0202
+still a fucking weeb,still a fucking weeb,dota,1,1,0,0.8557,0.1357,0.0086
+HOW DO YOU ALWAYS LET HIM GET HROUGH YOU ALL STRAUIGHT TO ME,how do you always let him get hrough you all strauight to me,lol,1,1,0,0.8546,0.1392,0.0062
+HOY PLDC,hoy pldc,dota,1,1,0,0.8538,0.125,0.0211
+outplyed by: NO ONE,outplyed by: no one,dota,1,1,0,0.8526,0.1456,0.0018
+focus silver,focus silver,lol,1,1,0,0.8521,0.1459,0.002
+thanks for the ez lp btw,thanks for the ez lp btw,dota,1,1,0,0.8494,0.148,0.0026
+varus u do no damage lol,varus u do no damage lol,lol,1,1,0,0.8483,0.1481,0.0036
+FUCK LAMOK,fuck lamok,dota,1,1,0,0.848,0.1475,0.0045
+alcahuete,alcahuete,dota,1,1,0,0.8476,0.1476,0.0047
+ya zhe govoru laker,ya zhe govoru laker,dota,1,1,0,0.8472,0.1479,0.0049
+u are voli,u are voli,lol,1,1,0,0.8472,0.141,0.0118
+PERU HC PFFF,peru hc pff,dota,1,1,0,0.8465,0.1451,0.0084
+thx for help blue cait,thx for help blue cait,lol,1,1,0,0.8461,0.1481,0.0057
+isang taon kang talo,isang taon kang talo,dota,1,1,0,0.8454,0.1461,0.0085
+nice auto hex,nice auto hex,dota,1,1,0,0.8453,0.1075,0.0471
+and brood with zero impact,and brood with zero impact,dota,1,1,0,0.8452,0.1524,0.0023
+really gj guys,really gj guys,lol,1,1,0,0.8445,0.1548,0.0007
+you have no rights here,you have no rights here,dota,1,1,0,0.8436,0.1526,0.0039
+the pot calling the kettle black,the pot calling the kettle black,dota,1,1,0,0.8434,0.1204,0.0362
+R U ALLIES pa?,r u allies pa?,dota,1,1,0,0.841,0.1399,0.0191
+Xd bezdarnost',xd bezdarnost',dota,1,1,0,0.8405,0.1586,0.0009
+4 of us are afk,4 of us are afk,dota,1,1,0,0.8399,0.1343,0.0258
+monsternoooob,monsternoob,lol,1,1,0,0.8389,0.1585,0.0026
+this shit lock ahri,this shit lock ahri,lol,1,1,0,0.8387,0.1586,0.0027
+report for spectre pls,report for spectre pls,dota,1,1,0,0.8385,0.1533,0.0082
+Lategame whore i am,lategame whore i am,lol,1,1,0,0.838,0.0004,0.1616
+flaming all day,flaming all day,lol,1,1,0,0.8366,0.1538,0.0096
+you knew she would R again,you knew she would r again,lol,1,1,0,0.8365,0.0892,0.0743
+im reporting doom,im reporting doom,dota,1,1,0,0.8364,0.1624,0.0012
+carry gankingg my dickkkkkkkk,carry gankingg my dickk,dota,1,1,0,0.8353,0.1616,0.0031
+veyn super feedddd,veyn super feedd,lol,1,1,0,0.8352,0.1597,0.0051
+crusader shit,crusader shit,dota,1,1,0,0.8319,0.1654,0.0027
+u kill lc axe,u kill lc axe,dota,1,1,0,0.8316,0.1315,0.0369
+"mata o dk jungle, cara tóxico e afk farmando","mata o dk jungle, cara tóxico e afk farmando",dota,1,1,0,0.8316,0.1114,0.057
+u aRE NOT A HUMAN,u are not a human,dota,1,1,0,0.8311,0.151,0.0179
+we trolling entire game,we trolling entire game,dota,1,1,0,0.8295,0.1682,0.0022
+veigar want mid and goes bot all the time,veigar want mid and goes bot all the time,lol,1,1,0,0.8285,0.1669,0.0046
+yeah attack afk ...,yeah attack afk ..,lol,1,1,0,0.8281,0.1683,0.0036
+gg luna no ulti ever.,gg luna no ulti ever.,dota,1,1,0,0.8276,0.1721,0.0004
+ZEUS brat,zeus brat,dota,1,1,0,0.8269,0.1701,0.003
+blitzc next time read f chat in pickingwindo,blitzc next time read f chat in pickingwindo,lol,1,1,0,0.8251,0.1374,0.0376
+CLownfest)0,clownfest)0,dota,1,1,0,0.8241,0.1759,0.0
+dive a full life nasus,dive a full life nasus,lol,1,1,0,0.8227,0.1716,0.0057
+why do u play,why do u play,lol,1,1,0,0.821,0.1595,0.0195
+what is up with that brand anyways?,what is up with that brand anyways?,dota,1,1,0,0.8201,0.1681,0.0119
+FUCKING MIDER AND AM,fucking mider and am,dota,1,1,0,0.8198,0.1696,0.0106
+trash spec :D,trash spec :d,dota,1,1,0,0.8194,0.1703,0.0103
+who the fuck tryhard in pub with pl,who the fuck tryhard in pub with pl,dota,1,1,0,0.8191,0.1692,0.0117
+"WP AM, rest of the team is trolling af","wp am, rest of the team is trolling af",dota,1,1,0,0.8185,0.1704,0.011
+sosat raki,sosat raki,dota,1,1,0,0.8185,0.1685,0.0129
+how potato is sf,how potato is sf,dota,1,1,0,0.818,0.1804,0.0017
+should have killed her earlier,should have killed her earlier,lol,1,1,0,0.8168,0.1518,0.0314
+u r not even better,u r not even better,lol,1,1,0,0.8165,0.1754,0.0081
+só xinga o time,só xinga o time,dota,1,1,0,0.8142,0.1731,0.0127
+i hate u blitz,i hate u blitz,lol,1,1,0,0.8141,0.1833,0.0026
+in fact i understand that you can't understand that because you don't understand this game ... :/,in fact i understand that you can't understand that because you don't understand this game .. :/,lol,1,1,0,0.8135,0.1529,0.0336
+starts with dorans blade rofl,starts with dorans blade rofl,lol,1,1,0,0.8108,0.1075,0.0817
+best tinkery!,best tinkery!,dota,1,1,0,0.809,0.1885,0.0025
+lol so y u go fight ?,lol so y u go fight ?,lol,1,1,0,0.8086,0.1825,0.009
+ez ? end now !,ez ? end now !,dota,1,1,0,0.8084,0.1913,0.0003
+fucked up my perfect game... now iam coming for ya,fucked up my perfect game.. now iam coming for ya,dota,1,1,0,0.8073,0.1886,0.0041
+stupid kassadin,stupid kassadin,lol,1,1,0,0.8056,0.1905,0.0039
+I speak english 3 levels above you,i speak english 3 levels above you,dota,1,1,0,0.8052,0.162,0.0328
+so back off mid,so back off mid,lol,1,1,0,0.8048,0.1945,0.0007
+it was dumb move to let em have lvl 2 1st,it was dumb move to let em have lvl 2 1st,lol,1,1,0,0.8045,0.1929,0.0026
+shinne kono yaro,shinne kono yaro,dota,1,1,0,0.8037,0.1954,0.0009
+FUCKING JUG',fucking jug',dota,1,1,0,0.8027,0.1913,0.006
+ill rape your nan,ill rape your nan,dota,1,1,0,0.8026,0.1325,0.0649
+gg imundos,gg imundos,dota,1,1,0,0.7997,0.1993,0.001
+"yeah, great job everyone, commended","yeah, great job everyone, commended",dota,1,1,0,0.7989,0.1938,0.0073
+"who the fuck picks huskar carry vs lc, and without daz or oracle ?","who the fuck picks huskar carry vs lc, and without daz or oracle ?",dota,1,1,0,0.7986,0.1935,0.0079
+lion come 1v1 me at roshan,lion come 1v1 me at roshan,dota,1,1,0,0.7977,0.1986,0.0037
+BabyRage ?,babyrage ?,dota,1,1,0,0.7964,0.1989,0.0047
+but u're too passive u're afraid of me so u're not a problem :D,but u're too passive u're afraid of me so u're not a problem :d,dota,1,1,0,0.7958,0.1911,0.0131
+GET fUcKed XD,get fucked xd,dota,1,1,0,0.7956,0.1949,0.0095
+Gg cerranos x2,gg cerranos x2,dota,1,1,0,0.7944,0.1963,0.0093
+partida no hands to,partida no hands to,dota,1,1,0,0.7935,0.1987,0.0078
+you'r the asholee here,you'r the asholee here,lol,1,1,0,0.7914,0.1879,0.0208
+yeah im going to make this game fucking hell for you shaman,yeah im going to make this game fucking hell for you shaman,dota,1,1,0,0.7911,0.1568,0.052
+why no recall,why no recall,lol,1,1,0,0.7901,0.2067,0.0032
+Oh nvm it was the void he's trash,oh nvm it was the void he's trash,dota,1,1,0,0.7879,0.2077,0.0044
+CLAP FOR STORM,clap for storm,dota,1,1,0,0.7878,0.2114,0.0008
+he thinks this is a pve game,he thinks this is a pve game,lol,1,1,0,0.7861,0.1704,0.0434
+schnauze franzlacke,schnauze franzlacke,lol,1,1,0,0.7858,0.1836,0.0307
+nice hard esh,nice hard esh,dota,1,1,0,0.7855,0.2136,0.0008
+just to say it again mrs pro soraka,just to say it again mrs pro soraka,lol,1,1,0,0.7855,0.2086,0.0059
+keep talking 1-4 mid teemo,keep talking 1-4 mid teemo,lol,1,1,0,0.7854,0.2079,0.0067
+listen dmanit to pings,listen dmanit to pings,lol,1,1,0,0.7838,0.1977,0.0185
+nice 10vs2,nice 10vs2,dota,1,1,0,0.7817,0.2148,0.0035
+why u took it,why u took it,lol,1,1,0,0.7797,0.2176,0.0027
+no pickeen sniper,no pickeen sniper,dota,1,1,0,0.779,0.2193,0.0017
+u were too far,u were too far,lol,1,1,0,0.7776,0.2053,0.0171
+they don't help shit,they don't help shit,lol,1,1,0,0.7744,0.2225,0.0031
+omg report my shield,omg report my shield,lol,1,1,0,0.7733,0.2232,0.0035
+slabo 4et,slabo 4et,dota,1,1,0,0.7733,0.219,0.0076
+RE´PORT MID PLEASE,re ́port mid please,dota,1,1,0,0.7726,0.2229,0.0044
+for 4 monkeys,for 4 monkeys,dota,1,1,0,0.7724,0.1353,0.0922
+why no heal,why no heal,lol,1,1,0,0.7721,0.2256,0.0024
+muted bronce :),muted bronce :),lol,1,1,0,0.7684,0.2212,0.0104
+drave is ur problem,drave is ur problem,lol,1,1,0,0.7667,0.2207,0.0126
+janna blame every one,janna blame every one,lol,1,1,0,0.7642,0.2296,0.0062
+FUCK HIM AND HIS GOD,fuck him and his god,dota,1,1,0,0.762,0.224,0.0139
+no synargy at all,no synargy at all,dota,1,1,0,0.7604,0.2313,0.0083
+fckn silencer,fckn silencer,dota,1,1,0,0.759,0.2205,0.0204
+TEAM WHY NO GO WHEN I PING,team why no go when i ping,lol,1,1,0,0.7575,0.2391,0.0034
+Brand why didin't you come sooner? :(,brand why didin't you come sooner? :(,lol,1,1,0,0.7563,0.2259,0.0178
+lol rly why always flame?,lol rly why always flame?,lol,1,1,0,0.756,0.2347,0.0092
+edi_ wow why not help me ? fucking,edi_ wow why not help me ? fucking,dota,1,1,0,0.7555,0.2213,0.0232
+leave thn,leave thn,dota,1,1,0,0.753,0.2445,0.0026
+nice gank top,nice gank top,lol,1,1,0,0.7516,0.2415,0.0069
+just stay def no u dont,just stay def no u dont,lol,1,1,0,0.7513,0.2451,0.0035
+fucked by albanians,fucked by albanians,dota,1,1,0,0.7506,0.223,0.0265
+just set her on ignore nasus,just set her on ignore nasus,lol,1,1,0,0.7499,0.2423,0.0078
+he didn't buy wards,he didn't buy wards,lol,1,1,0,0.749,0.2358,0.0151
+he cant ult,he cant ult,dota,1,1,0,0.7472,0.2521,0.0007
+omg garen so much lucekr,omg garen so much lucekr,lol,1,1,0,0.7458,0.2495,0.0046
+tang ina takot bga mtalo,tang ina takot bga mtalo,dota,1,1,0,0.7423,0.2441,0.0136
+naic talant,naic talant,dota,1,1,0,0.7402,0.2476,0.0122
+yarragım buke,yarragım buke,dota,1,1,0,0.7389,0.2472,0.0139
+divine mid with ez party try hard ;p,divine mid with ez party try hard ;p,dota,1,1,0,0.7371,0.2625,0.0004
+yan trashtalkin nyu,yan trashtalkin nyu,dota,1,1,0,0.7359,0.2489,0.0152
+need axe noob to kill hahahahahahah,need axe noob to kill hahahahahahah,dota,1,1,0,0.7351,0.2299,0.0351
+lool thx for tower,lool thx for tower,lol,1,1,0,0.734,0.2617,0.0044
+he was bad at carry,he was bad at carry,dota,1,1,0,0.7338,0.2614,0.0048
+ez top ROFL,ez top rofl,dota,1,1,0,0.7312,0.2646,0.0042
+"gragas, you have to be quicker","gragas, you have to be quicker",lol,1,1,0,0.7295,0.216,0.0545
+leona if you would pink shit for once,leona if you would pink shit for once,lol,1,1,0,0.7273,0.2657,0.0071
+you fucking meme boys,you fucking meme boys,dota,1,1,0,0.7273,0.2407,0.032
+14k gold but doesnt know how to upgrade his fucking dragon lance,14k gold but doesnt know how to upgrade his fucking dragon lance,dota,1,1,0,0.7269,0.2477,0.0254
+LESH REPORTS INCOMING,lesh reports incoming,dota,1,1,0,0.7241,0.2686,0.0073
+NO FUCKING TEAMWROK,no fucking teamwrok,dota,1,1,0,0.7211,0.2734,0.0054
+nub**,nub**,lol,1,1,0,0.7186,0.2699,0.0116
+nice ? gyro,nice ? gyro,dota,1,1,0,0.7178,0.2723,0.0099
+what is this team ?,what is this team ?,lol,1,1,0,0.7176,0.2687,0.0137
+pls not play again in ranked is not for u,pls not play again in ranked is not for u,lol,1,1,0,0.7171,0.2501,0.0327
+fucker takes mid after i mark first,fucker takes mid after i mark first,dota,1,1,0,0.717,0.2761,0.0069
+he dont grab..,he dont grab..,lol,1,1,0,0.717,0.283,0.0
+how can he fukin trow the game like that?>,how can he fukin trow the game like that?>,dota,1,1,0,0.7136,0.277,0.0094
+report my supp pls,report my supp pls,dota,1,1,0,0.7132,0.2807,0.0061
+ur not doing anything,ur not doing anything,dota,1,1,0,0.7128,0.2505,0.0367
+blocking me on ur fuccking ultimate,blocking me on ur fuccking ultimate,lol,1,1,0,0.7107,0.2771,0.0122
+if u would follow,if u would follow,lol,1,1,0,0.7098,0.2793,0.0109
+no fucking comment and he mad why we lost,no fucking comment and he mad why we lost,dota,1,1,0,0.7078,0.2802,0.0119
+rofl lee ...,rofl lee ..,lol,1,1,0,0.7059,0.2833,0.0108
+cause you dont building tank,cause you dont building tank,lol,1,1,0,0.7027,0.2899,0.0074
+your trash talk needs work,your trash talk needs work,dota,1,1,0,0.7027,0.269,0.0283
+bogo na kolera,bogo na kolera,dota,1,1,0,0.701,0.1931,0.106
+2 igri zaruinil,2 igri zaruinil,dota,1,1,0,0.6997,0.2524,0.0479
+you were just standing there for like 10 seconds,you were just standing there for like 10 seconds,lol,1,1,0,0.6991,0.2236,0.0773
+short dick,short dick,dota,1,1,0,0.6968,0.289,0.0142
+callate under,callate under,dota,1,1,0,0.6954,0.2989,0.0056
+nicce tp,nicce tp,dota,1,1,0,0.6951,0.2982,0.0067
+okey good job,okey good job,lol,1,1,0,0.6949,0.3044,0.0008
+WHY RUS IN NY TEAM?,why rus in ny team?,dota,1,1,0,0.6907,0.2652,0.0441
+yeboik,yeboik,dota,1,1,0,0.6904,0.3073,0.0023
+wihtout me you do 0 dmg,wihtout me you do 0 dmg,lol,1,1,0,0.69,0.3077,0.0023
+u need jarv to kill me noobs,u need jarv to kill me noobs,lol,1,1,0,0.6895,0.2978,0.0128
+wow u must be god,wow u must be god,dota,1,1,0,0.6892,0.3047,0.0061
+you dont know anything,you dont know anything,lol,1,1,0,0.689,0.288,0.023
+i died 2. time for him and everytime he came back to ks,i died 2. time for him and everytime he came back to ks,lol,1,1,0,0.6883,0.3016,0.01
+u r not leroy jankins,u r not leroy jankins,dota,1,1,0,0.6875,0.2423,0.0703
+nice em,nice em,dota,1,1,0,0.6866,0.3104,0.0031
+forsaken nab,forsaken nab,lol,1,1,0,0.6853,0.3134,0.0013
+i hate to play wit bronces,i hate to play wit bronces,lol,1,1,0,0.685,0.2938,0.0212
+omg tema fuck fo,omg tema fuck fo,lol,1,1,0,0.683,0.3073,0.0097
+6/6 je feed,6/6 je feed,lol,1,1,0,0.6828,0.2996,0.0175
+sosi .!.,sosi .!.,dota,1,1,0,0.6816,0.3165,0.0019
+nah i wont stfu,nah i wont stfu,lol,1,1,0,0.6805,0.2687,0.0509
+but well youre to pro,but well youre to pro,lol,1,1,0,0.6792,0.3169,0.0039
+uebo,uebo,dota,1,1,0,0.6787,0.3197,0.0016
+the wrong is not a team player,the wrong is not a team player,dota,1,1,0,0.6757,0.3079,0.0164
+ayooo tolol,ayoo tolol,dota,1,1,0,0.6756,0.3199,0.0045
+pobre clionks,pobre clionks,dota,1,1,0,0.6741,0.3185,0.0074
+who trolled?,who trolled?,lol,1,1,0,0.6715,0.327,0.0015
+jungle axe lost us the game,jungle axe lost us the game,dota,1,1,0,0.6709,0.323,0.0061
+go give up,go give up,dota,1,1,0,0.67,0.3232,0.0068
+you need a friend to upgrade your elo tristana...,you need a friend to upgrade your elo tristana..,lol,1,1,0,0.6684,0.3066,0.025
+lee dont help team,lee dont help team,lol,1,1,0,0.6661,0.3078,0.0261
+venom reported for having aids,venom reported for having aids,dota,1,1,0,0.6646,0.303,0.0324
+how about drow feed and abandon?,how about drow feed and abandon?,dota,1,1,0,0.6629,0.3346,0.0025
+i told u to go back,i told u to go back,lol,1,1,0,0.6609,0.3367,0.0024
+OE TIO CALLATE,oe tio callate,dota,1,1,0,0.6603,0.3362,0.0036
+im bullying 1k rubick,im bullying 1k rubick,dota,1,1,0,0.6569,0.341,0.0021
+CAN YOU READ,can you read,dota,1,1,0,0.6558,0.3342,0.0101
+"if my team were any worse, they wouldn't be called team but Minion wave.","if my team were any worse, they wouldn't be called team but minion wave.",lol,1,1,0,0.6552,0.3348,0.01
+tes silver,tes silver,lol,1,1,0,0.6539,0.3428,0.0033
+cant u stay tower,cant u stay tower,lol,1,1,0,0.6517,0.337,0.0113
+cent is fcking toxic,cent is fcking toxic,dota,1,1,0,0.65,0.3319,0.0181
+look at kassa,look at kassa,lol,1,1,0,0.65,0.3362,0.0138
+i want to give mummy milkies in her cuni cuni,i want to give mummy milkies in her cuni cuni,dota,1,1,0,0.6498,0.0206,0.3295
+jax that tower dive was dumb :(,jax that tower dive was dumb :(,lol,1,1,0,0.6493,0.3462,0.0045
+Void fuck my all family(,void fuck my all family(,dota,1,1,0,0.6493,0.3224,0.0283
+why you fought without me anyway,why you fought without me anyway,lol,1,1,0,0.6491,0.3454,0.0055
+PA FUK,pa fuk,dota,1,1,0,0.6475,0.3521,0.0004
+why do you watch and run away?,why do you watch and run away?,lol,1,1,0,0.6468,0.3315,0.0217
+scared rammus,scared rammus,lol,1,1,0,0.6464,0.3449,0.0087
+annie aswell is always afk farming,annie aswell is always afk farming,lol,1,1,0,0.6458,0.3397,0.0144
+stop feed we can carry this game,stop feed we can carry this game,lol,1,1,0,0.6442,0.3513,0.0046
+yes waste time,yes waste time,dota,1,1,0,0.6435,0.3534,0.0031
+sell that shit,sell that shit,lol,1,1,0,0.6435,0.3541,0.0024
+HOW u just randomly do that shit,how u just randomly do that shit,dota,1,1,0,0.6411,0.354,0.0049
+soo baD TO BE THERE,soo bad to be there,lol,1,1,0,0.6401,0.3555,0.0044
+FUCKING WK,fucking wk,dota,1,1,0,0.6385,0.3514,0.0102
+all rebort fidlesticks,all rebort fidlesticks,lol,1,1,0,0.6375,0.333,0.0295
+minions at top are noobs,minions at top are noobs,lol,1,1,0,0.6349,0.3607,0.0044
+A ESA CACA D EINVOKER,a esa caca d einvoker,dota,1,1,0,0.6318,0.3347,0.0334
+HOW MUCH U NEED TO CHECK FCKING BUSH?,how much u need to check fcking bush?,lol,1,1,0,0.6316,0.3634,0.005
+nice job buddy,nice job buddy,dota,1,1,0,0.6304,0.3682,0.0014
+u just ask to be ganked,u just ask to be ganked,lol,1,1,0,0.6299,0.3625,0.0076
+xDDDDDDDD this team,xdd this team,lol,1,1,0,0.627,0.346,0.027
+nice carrys hole time,nice carrys hole time,dota,1,1,0,0.6265,0.3567,0.0168
+and this cait does fuck all,and this cait does fuck all,lol,1,1,0,0.6258,0.3619,0.0122
++ all lanes are feeding?,+ all lanes are feeding?,lol,1,1,0,0.6257,0.3729,0.0015
+ti-ai pierdut veninul,ti-ai pierdut veninul,dota,1,1,0,0.6256,0.2204,0.1539
+fuckin disgraceful,fuckin disgraceful,dota,1,1,0,0.625,0.3354,0.0395
+não jogo com peruano cancer,não jogo com peruano cancer,dota,1,1,0,0.6242,0.241,0.1348
+i hope this dufus batrider is happy,i hope this dufus batrider is happy,dota,1,1,0,0.6232,0.0857,0.2911
+you went in 1v5 -.-,you went in 1v5 -.-,lol,1,1,0,0.6201,0.371,0.0089
+stop nida,stop nida,lol,1,1,0,0.62,0.3772,0.0028
+forgotten useless crap,forgotten useless crap,lol,1,1,0,0.6193,0.3786,0.0021
+END FUCKING OMNI'S LIFE,end fucking omni's life,dota,1,1,0,0.615,0.3649,0.0201
+weak like fuck,weak like fuck,dota,1,1,0,0.6143,0.3766,0.0091
+xerath newb,xerath newb,lol,1,1,0,0.6128,0.3847,0.0025
+witht his ryze flaming I dont care play at all,witht his ryze flaming i dont care play at all,lol,1,1,0,0.6124,0.3501,0.0375
+literally got all of you ganking me for a good while and they cant do jack lmao,literally got all of you ganking me for a good while and they cant do jack lmao,dota,1,1,0,0.6116,0.3142,0.0742
+TINKER TO FEED WP,tinker to feed wp,dota,1,1,0,0.6067,0.3874,0.0058
+fuking ORULHO,fuking orulho,lol,1,1,0,0.6064,0.3772,0.0164
+"HE DOSNT DO ANYTHING AND THEN HE TYPES "" I GOT PEOPLE LIEK THIS ""","he dosnt do anything and then he types "" i got people liek this """,lol,1,1,0,0.6042,0.3773,0.0185
+dusa fucked the top,dusa fucked the top,dota,1,1,0,0.6042,0.3916,0.0042
+who lost his acc,who lost his acc,lol,1,1,0,0.6025,0.3849,0.0125
+we have zero dmg,we have zero dmg,lol,1,1,0,0.6016,0.392,0.0064
+wtf xD 4 afk,wtf xd 4 afk,lol,1,1,0,0.5991,0.3994,0.0015
+you must be under 12 :p lol,you must be under 12 :p lol,lol,1,1,0,0.5991,0.3947,0.0062
+ito counter me last game coz u lost to me ahahah,ito counter me last game coz u lost to me ahahah,dota,1,1,0,0.5989,0.3845,0.0167
+bad setup for it,bad setup for it,lol,1,1,0,0.5988,0.3993,0.0019
+shhh brazuca,shh brazuca,dota,1,1,0,0.5984,0.2318,0.1698
+ez win hey,ez win hey,dota,1,1,0,0.5983,0.4014,0.0003
+how do you feel about our conter picks slardarr xxD,how do you feel about our conter picks slardarr xxd,dota,1,1,0,0.5976,0.3683,0.0341
+hes like that since min 1,hes like that since min 1,lol,1,1,0,0.5969,0.3971,0.006
+u are the pro bro,u are the pro bro,lol,1,1,0,0.596,0.4002,0.0038
+lc shit,lc shit,dota,1,1,0,0.5945,0.401,0.0045
+kan ni sluta trolla bot :c,kan ni sluta trolla bot :c,lol,1,1,0,0.593,0.2895,0.1175
+everybody is noob for you or what?,everybody is noob for you or what?,lol,1,1,0,0.5895,0.392,0.0185
+SLUTA BOOSTA DIG OCH DIN VÄN GENOM ATT RUNKA,sluta boosta dig och din vän genom att runka,lol,1,1,0,0.5881,0.1607,0.2512
+troll platinum,troll platinum,lol,1,1,0,0.588,0.4015,0.0105
+stop palying ranked,stop palying ranked,lol,1,1,0,0.5875,0.4079,0.0046
+yeah but his '' babysit '' help us a lot,yeah but his '' babysit '' help us a lot,lol,1,1,0,0.5874,0.3961,0.0165
+U SURE rank 1.8?,u sure rank 1.8?,dota,1,1,0,0.5873,0.4042,0.0084
+nah ijut give up with u in my team,nah ijut give up with u in my team,dota,1,1,0,0.5853,0.3569,0.0579
+hahah deine mum schluckt scheise,hahah deine mum schluckt scheise,lol,1,1,0,0.5851,0.2923,0.1227
+tasted your fart?,tasted your fart?,lol,1,1,0,0.5837,0.3366,0.0797
+dont engage without reason,dont engage without reason,lol,1,1,0,0.5807,0.4101,0.0092
+why u go first,why u go first,lol,1,1,0,0.5806,0.4094,0.01
+send this clown to lp guys ty,send this clown to lp guys ty,dota,1,1,0,0.579,0.4194,0.0016
+act like you don't know,act like you don't know,dota,1,1,0,0.5784,0.3949,0.0268
+nice job btw,nice job btw,lol,1,1,0,0.5782,0.4183,0.0035
+NICE ALH,nice alh,dota,1,1,0,0.5776,0.4158,0.0065
+and u pause lmao,and u pause lmao,dota,1,1,0,0.577,0.3656,0.0574
+sad dumpster am,sad dumpster am,dota,1,1,0,0.5741,0.4176,0.0083
+unskilled player anyway :D,unskilled player anyway :d,lol,1,1,0,0.5703,0.42,0.0097
+lux this is flame!,lux this is flame!,lol,1,1,0,0.5696,0.428,0.0024
+conchatumre,conchatumre,dota,1,1,0,0.5695,0.4254,0.0051
+u score 2 6,u score 2 6,lol,1,1,0,0.5693,0.378,0.0527
+game losing hook right there\,game losing hook right there\,dota,1,1,0,0.5634,0.4309,0.0058
+ez why go fight?,ez why go fight?,lol,1,1,0,0.5596,0.4393,0.0011
+why didnt u stay mid,why didnt u stay mid,dota,1,1,0,0.5592,0.4344,0.0063
+WHY CANT U IN A FUCKING GAME,why cant u in a fucking game,lol,1,1,0,0.5584,0.3697,0.072
+he's uncelibritaed,he's uncelibritaed,dota,1,1,0,0.5569,0.3256,0.1175
++ unskilled hahha,+ unskilled hahha,lol,1,1,0,0.5569,0.4304,0.0126
+y nego mat' sdohla,y nego mat' sdohla,dota,1,1,0,0.5566,0.4341,0.0093
+u dont fuk with me bro,u dont fuk with me bro,lol,1,1,0,0.5563,0.4421,0.0015
+what ks no one died,what ks no one died,lol,1,1,0,0.5518,0.4119,0.0363
+mega fucking scumbag,mega fucking scumbag,dota,1,1,0,0.5502,0.3176,0.1322
+wholly shit this tinker late to every figth,wholly shit this tinker late to every figth,dota,1,1,0,0.55,0.4195,0.0305
+also nice camps block,also nice camps block,dota,1,1,0,0.5485,0.3802,0.0713
+supoer carry,supoer carry,dota,1,1,0,0.5474,0.449,0.0037
+stop wasting ur fucking time,stop wasting ur fucking time,dota,1,1,0,0.5463,0.4376,0.0161
+game gives noobs the best and broken heros,game gives noobs the best and broken heros,dota,1,1,0,0.5449,0.4472,0.0079
+FUUUUUUUCK YOUUUUUU,fuuck youu,lol,1,1,0,0.54,0.4575,0.0025
+"vayne, you feed once","vayne, you feed once",lol,1,1,0,0.5394,0.4544,0.0062
+FU CHO !,fu cho !,lol,1,1,0,0.536,0.4366,0.0274
+on that lvl too much flammers?,on that lvl too much flammers?,lol,1,1,0,0.5346,0.4627,0.0027
+what u know about reports?,what u know about reports?,dota,1,1,0,0.5345,0.452,0.0134
+bez ebaljnika,bez ebaljnika,dota,1,1,0,0.532,0.4629,0.0051
+but yours is shit,but yours is shit,lol,1,1,0,0.5303,0.4593,0.0104
+you go 0/3,you go 0/3,lol,1,1,0,0.5294,0.4699,0.0008
+u dotn have pinks for gang,u dotn have pinks for gang,lol,1,1,0,0.5285,0.3335,0.138
+nice jayce,nice jayce,lol,1,1,0,0.527,0.4593,0.0137
+and fuck of ww,and fuck of ww,lol,1,1,0,0.5264,0.3859,0.0876
+sold his items. 9x pls,sold his items. 9x pls,lol,1,1,0,0.5253,0.4723,0.0024
+dum fuk,dum fuk,lol,1,1,0,0.5235,0.4762,0.0002
+gj pusshhhhh,gj pusshh,lol,1,1,0,0.5233,0.4622,0.0145
+Slomeone is mad,slomeone is mad,dota,1,1,0,0.5204,0.4478,0.0317
+aer you insane?,aer you insane?,lol,1,1,0,0.5178,0.4771,0.0052
+HE DOES IT FOR THEM KIDT,he does it for them kidt,lol,1,1,0,0.5135,0.4804,0.0061
+such lucky hooks,such lucky hooks,dota,1,1,0,0.5112,0.4042,0.0847
+u just have been wiped out lol,u just have been wiped out lol,dota,1,1,0,0.5104,0.448,0.0417
+le fu,le fu,lol,1,1,0,0.5092,0.4821,0.0087
+dont get caught like that plz,dont get caught like that plz,lol,1,1,0,0.5079,0.4598,0.0322
+ahaha you need tf whyt enemy baron??,ahaha you need tf whyt enemy baron??,lol,1,1,0,0.5075,0.4824,0.0102
+no ss 4 times,no ss 4 times,lol,1,1,0,0.5074,0.4898,0.0027
+they are bad if u vs them,they are bad if u vs them,lol,1,1,0,0.5037,0.4945,0.0018
+warlock I'm going to fuck u up,warlock i'm going to fuck u up,dota,1,1,0,0.5021,0.4315,0.0663
+fast win ez team,fast win ez team,dota,1,1,0,0.501,0.4939,0.0051
+kos omk ga7behe,kos omk ga7behe,dota,1,1,0,0.4933,0.4905,0.0163
+buy dust and kill this usless bh pls,buy dust and kill this usless bh pls,dota,1,1,0,0.4899,0.4181,0.092
+ur dyin left right centre,ur dyin left right centre,dota,1,1,0,0.486,0.3695,0.1445
+ruin gamer,ruin gamer,dota,1,1,0,0.4815,0.453,0.0655
+what r u chatting just stfu or i drop u,what r u chatting just stfu or i drop u,lol,1,1,0,0.477,0.3823,0.1407
+a ne ebaniy NS,a ne ebaniy ns,dota,1,1,0,0.4658,0.399,0.1352
+thats okay necro. uwont die virgin,thats okay necro. uwont die virgin,dota,1,1,0,0.4489,0.4339,0.1172
+Dirty lycan spammer,dirty lycan spammer,dota,1,1,0,0.4013,0.3786,0.2201
+we have someone who just escape from a hospital,we have someone who just escape from a hospital,dota,1,1,0,0.3951,0.3496,0.2553

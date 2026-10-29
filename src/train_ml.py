@@ -24,7 +24,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 
-from src.config import PROCESSED_DIR, SEED, WITH_DUPS_DIR, set_seeds
+from src.config import SEED, SPLITS_DIR, SPLITS_WITH_DUPS_DIR, set_seeds
 from src.features import FEATURES
 from src.model_io import DATASETS, ModelBundle, binarize, save_bundle
 
@@ -77,7 +77,7 @@ MODEL_SPECS = {
 
 
 def load_split(dataset: str, split: str) -> pd.DataFrame:
-    base = PROCESSED_DIR if dataset == "dedup" else WITH_DUPS_DIR
+    base = SPLITS_DIR if dataset == "dedup" else SPLITS_WITH_DUPS_DIR
     return pd.read_csv(base / f"{split}.csv", keep_default_na=False)
 
 

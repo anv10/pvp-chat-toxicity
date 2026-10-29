@@ -12,6 +12,10 @@ RAW_DIR = DATA_DIR / "raw"
 LEXICON_DIR = DATA_DIR / "lexicons"
 PROCESSED_DIR = DATA_DIR / "processed"
 WITH_DUPS_DIR = PROCESSED_DIR / "with_dups"  # side experiment: leakage via duplicates
+# Train/val/test CSVs that models read. v2 = same messages as DATA_DIR/processed, but with
+# the LLM ("gamer") labels; the lexicon labels are kept in a `label_lexicon` column.
+SPLITS_DIR = DATA_DIR / "processed_v2"
+SPLITS_WITH_DUPS_DIR = SPLITS_DIR / "with_dups"
 MANUAL_CHECK_PATH = DATA_DIR / "manual_check.csv"
 
 MODELS_DIR = ROOT / "models"

@@ -5,7 +5,7 @@ Run:  python -m src.embeddings     # train our word2vec + write the comparison r
 The paper concluded that embeddings pretrained on news text don't understand
 gamer slang ("feeder", "bronze", "gg"). Our extension tests that directly:
   - glove50 / glove100      pretrained on Wikipedia + Gigaword news (via gensim downloader)
-  - gamew2v50 / gamew2v100  word2vec trained by us on 1.8M game chat messages
+  - gameft50 / gameft100    fastText trained by us on 1.8M game chat messages
                             (data/processed/w2v_corpus.txt; val/test messages excluded)
 Besides model accuracy, we compare (a) how much of our chat vocabulary each
 embedding knows and (b) nearest neighbours of slang words.
@@ -15,16 +15,16 @@ import json
 
 import numpy as np
 import pandas as pd
-from gensim.models import KeyedVectors, Word2Vec
+from gensim.models import FastText, KeyedVectors
 
-from src.config import MODELS_DIR, PROCESSED_DIR, RESULTS_DIR, SEED
+from src.config import MODELS_DIR, PROCESSED_DIR, RESULTS_DIR, SEED, SPLITS_DIR
 from src.text_utils import tokenize
 
 EMBEDDINGS = {
     "glove50": "glove-wiki-gigaword-50",
     "glove100": "glove-wiki-gigaword-100",
-    "gamew2v50": 50,
-    "gamew2v100": 100,
+    "gameft50": 50,
+    "gameft100": 100,
 }
 W2V_DIR = MODELS_DIR / "word2vec"
 SLANG_PROBES = ["noob", "feeder", "gg", "ez", "bronze", "report", "jungle", "ff", "carry", "toxic"]
@@ -47,22 +47,25 @@ class ChatCorpus:
                     yield tokens
 
 
-def train_game_w2v(dim: int) -> KeyedVectors:
-    """Skip-gram word2vec on game chat. workers=1 so the result is reproducible
-    (gensim with several threads is not deterministic even with a fixed seed)."""
-    model = Word2Vec(
+def train_game_ft(dim: int) -> KeyedVectors:
+    """Skip-gram fastText on game chat. fastText also learns vectors for character
+    pieces (3-6 letters), so misspellings like "retardd" or "n00b" get a vector even
+    if they were rare or unseen. workers=1 so the result is reproducible.
+    Settings picked by downstream validation score (models/word2vec/experiments/)."""
+    model = FastText(
         sentences=ChatCorpus(),
         vector_size=dim,
-        window=5,       # chat messages are short; 5 words of context is most of a message
-        min_count=5,    # ignore words seen < 5 times (typos, gibberish)
-        sg=1,           # skip-gram: better than CBOW for rare words, i.e. slang
-        epochs=5,
+        window=3,       # chat messages are short
+        min_count=2,    # keep rarer slang; subwords cover the rest
+        sg=1,
+        epochs=10,
+        min_n=3, max_n=6,
         workers=1,
         seed=SEED,
         hashfxn=stable_hash,
     )
     W2V_DIR.mkdir(parents=True, exist_ok=True)
-    model.wv.save(str(W2V_DIR / f"gamew2v{dim}.kv"))
+    model.wv.save(str(W2V_DIR / f"gameft{dim}.kv"))
     return model.wv
 
 
@@ -74,19 +77,19 @@ def load_embedding(name: str) -> KeyedVectors:
     path = W2V_DIR / f"{name}.kv"
     if not path.exists():
         print(f"  training {name} on game chat (a few minutes) ...")
-        return train_game_w2v(source)
+        return train_game_ft(source)
     return KeyedVectors.load(str(path))
 
 
 def coverage(kv: KeyedVectors, train_tokens: list[list[str]]) -> dict:
     """Share of our training vocabulary (types) and running text (tokens) the embedding knows."""
     counts = pd.Series([t for msg in train_tokens for t in msg]).value_counts()
-    known = counts.index.map(lambda w: w in kv.key_to_index).to_numpy(dtype=bool)
+    known = counts.index.map(lambda w: w in kv).to_numpy(dtype=bool)
     return {"vocab_coverage": known.mean(), "token_coverage": counts[known].sum() / counts.sum()}
 
 
 def main() -> None:
-    train = pd.read_csv(PROCESSED_DIR / "train.csv", keep_default_na=False)
+    train = pd.read_csv(SPLITS_DIR / "train.csv", keep_default_na=False)
     train_tokens = [tokenize(t) for t in train["text_norm"]]
     rows, neighbours = [], {}
     for name in EMBEDDINGS:
@@ -101,7 +104,7 @@ def main() -> None:
     cov.round(4).to_csv(RESULTS_DIR / "embedding_coverage.csv", index=False)
     (RESULTS_DIR / "embedding_neighbours.json").write_text(json.dumps(neighbours, indent=2))
 
-    lines = ["# GloVe (news) vs our game-chat word2vec", "",
+    lines = ["# GloVe (news) vs our game-chat fastText", "",
              "## Coverage of our training messages", "",
              "| Embedding | Dim | Words known | Vocab coverage | Token coverage |",
              "|---|---:|---:|---:|---:|"]
@@ -109,10 +112,10 @@ def main() -> None:
         lines.append(f"| {r['embedding']} | {r['dim']} | {r['known_words']:,} "
                      f"| {r['vocab_coverage']:.1%} | {r['token_coverage']:.1%} |")
     lines += ["", "## Nearest neighbours of gaming slang (50d versions)", "",
-              "| Word | GloVe 50d | Game-chat word2vec 50d |", "|---|---|---|"]
+              "| Word | GloVe 50d | Game-chat fastText 50d |", "|---|---|---|"]
     for w in SLANG_PROBES:
         g = neighbours["glove50"][w]
-        m = neighbours["gamew2v50"][w]
+        m = neighbours["gameft50"][w]
         lines.append(f"| {w} | {', '.join(g) if g else '(unknown)'} "
                      f"| {', '.join(m) if m else '(unknown)'} |")
     (RESULTS_DIR / "embeddings.md").write_text("\n".join(lines) + "\n")

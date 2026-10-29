@@ -1,0 +1,3 @@
+# extra requirements for src/train_bert.py (kept out of requirements.txt on purpose)
+torch
+transformers
